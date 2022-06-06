@@ -9,7 +9,7 @@ Creational 생성패턴
 - 프로토타입 (Prototype)
 - 싱글톤(Singleton)
 
-Structural
+Structural 구조패턴
 - 어댑터(Adaptor)
 - 브리지(Bridge)
 - 컴포지트(Composite)
@@ -18,7 +18,7 @@ Structural
 - 플라이웨이트
 - 프록시(Proxy)
 
-Behavioral
+Behavioral 행동패턴
 - 책임 체인 / 연쇄책임 (chain-of-responsibility pattern)
 - 커맨드(Command)
 - 인터프리터(Interpreter)
