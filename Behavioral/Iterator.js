@@ -20,3 +20,14 @@ console.log(test.next()) // 2
 console.log(test.done()) // false
 console.log(test.next()) // 3
 console.log(test.done()) // true
+
+function factorial() {
+  let count = 1;
+  let cur = 1;
+  return {
+    next:() => {
+      [count, cur] = [count + 1, cur * count];
+      return { done: false, value: cur };
+    }
+  }
+};
